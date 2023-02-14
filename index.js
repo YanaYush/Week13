@@ -1,26 +1,38 @@
 //1
-console.log(40000 + 22000)
+
+let cleaner = 40000;
+let vocal = 22000;
+console.log(cleaner + vocal)
 
 //2
-console.log("Владивосток" + " " + 2000)
+let text = "Владивосток";
+let n = 2000;
+console.log(text + " " + n)
 
 //3
-console.log(2.13 + 4.23 + 2.28 + 3.35)
+let messenger = 128;
+let pictures = 254;
+let vk = 137;
+let youtube = 201;
+console.log("Всего: " + (messenger + pictures + vk + youtube) + " минут или " + (messenger + pictures + vk + youtube) / 60 + " часов")
 
 
 //4
-console.log(2 ** 5)
+let num1 = 2
+let num2 = 5
+console.log(num1 ** num2)
 
 
 //5
-console.log("Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!")
+let message = "Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!"
+console.log(message)
 
 
 //6
-const greetings = "Привет";
+const greetings = "Привет,";
 const name = "Кот";
 
-console.log(greetings + "," + " " + name)
+console.log(greetings + " " + name)
 
 //7
 
@@ -46,7 +58,9 @@ console.log('Вы приехали. Добро пожаловать в Моск�
 let fahrenheit;
 fahrenheit = 451;
 
-let celcius;
-celcius = (fahrenheit - 32) / 1.8;
+let celsius;
+celsius = (fahrenheit - 32) / 1.8;
 
-console.log(fahrenheit + " " + `градус по Фаренгейту — это` + " " + celcius + " " + `градуса по Цельсию.`)
+console.log(`${fahrenheit} градус по Фаренгейту - это ${celsius} градуса по Цельсию.`);
+
+
